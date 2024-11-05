@@ -1,0 +1,12 @@
+[package]
+name = "yolov11"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ort = { version = "2.0.0-rc.8", features = ["load-dynamic"] }
+ndarray = "*"
+image = "*"
+opencv = { version = "*", features = ["imgproc"] }
+log = "*"
+env_logger = "*"
